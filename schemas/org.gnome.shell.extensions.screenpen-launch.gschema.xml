@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions">
+  <schema path="/org/gnome/shell/extensions/screenpen-launch/" id="org.gnome.shell.extensions.screenpen-launch">
+      <key name="open-screenpen" type="as">
+        <default><![CDATA[['<Ctrl>1']]]></default>
+        <summary>Launch Nautilus</summary>
+        <description>
+          Keybinding for Nautilus launching.
+        </description>
+      </key>
+  </schema>
+</schemalist>

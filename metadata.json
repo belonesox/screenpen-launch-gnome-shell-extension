@@ -1,0 +1,10 @@
+{
+    "extension-id": "screenpen-launch",
+    "uuid": "screenpen-launch@uxteam.rosalab.ru",
+    "settings-schema": "org.gnome.shell.extensions.screenpen-launch",
+    "gettext-domain": "screenpen-launch",
+    "name": "ScreenPen launch",
+    "description": "Launch the application drawing on the screen",
+    "shell-version": ["3.8", "3.12", "3.16", "3.18"],
+    "url": "http://git.gnome.org/gnome-shell-extensions"
+}
