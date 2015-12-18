@@ -83,8 +83,17 @@ function init() {
 // Enable function
 function enable() {
 
+    try{
+        // For GNOME Shell version >= 3.16
+        var mode_normal = Shell.ActionMode.NORMAL;
+    }     
+    catch(err) {
+        // For GNOME Shell version < 3.16
+        var mode_normal = Shell.KeyBindingMode.NORMAL;
+    }
+
     global.display.add_keybinding('open-screenpen', Settings, Meta.KeyBindingFlags.NONE, _createHotkeyHandler('open-screenpen'));
-    Main.wm.setCustomKeybindingHandler('open-screenpen', Shell.KeyBindingMode.NORMAL, _createHotkeyHandler('open-screenpen'));
+    Main.wm.setCustomKeybindingHandler('open-screenpen', mode_normal, _createHotkeyHandler('open-screenpen'));
 
     try {
        _icon_on_panel=new TopPanelIcon;

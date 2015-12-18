@@ -1,6 +1,6 @@
 {
     "extension-id": "screenpen-launch",
-    "uuid": "screenpen-launch@uxteam.rosalab.ru",
+    "uuid": "screenpen-launch-gnome-shell-extension@belonesox.github.com",
     "settings-schema": "org.gnome.shell.extensions.screenpen-launch",
     "gettext-domain": "screenpen-launch",
     "name": "ScreenPen launch",
